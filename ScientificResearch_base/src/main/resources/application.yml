@@ -1,0 +1,17 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: ScientificResearch-base
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.47.128:3306/ScientificResearch_base?useUnicode=true&amp;characterEncoding=UTF-8?autoReconnect=true
+    username: root
+    password: root
+  jpa:
+    database: mysql
+#    hibernate:
+#      ddl-auto: update
+    show-sql: true
+  redis:
+    host: 192.168.47.128
